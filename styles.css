@@ -101,13 +101,22 @@ button:hover{
 
 .signContainer{
     position: relative;
-    top: 150px;
-    display: flex;
-    flex-flow: column;
+    top: 250px;
+    display: grid;
+    grid-template-columns: 270px 270px 270px;
+    grid-template-rows: 325px 45px;
+    gap:35px;
     margin-top: 12px;
     background: linear-gradient(110deg, #51046d 60%, #790191 60%);
+    
 }
 
+form{
+    display: grid;
+    grid-template-columns: 320px 320px ;
+    grid-template-rows: 60px 60px 60px;
+    margin-right: 5px;
+}
 
 .input-container{
     font-size: 1em;
@@ -118,12 +127,15 @@ button:hover{
 }
 
 .login{
-    display: flex;
     position: relative;
     top:300px;
     width:400px;
     height: 25px;
-    color:white
+    color:white;
+}
+
+a{
+    color:hotpink;
 }
 
 em{
@@ -134,8 +146,9 @@ em{
 input{
     color: white;
     background-color: #27272c;
-    height: 25px;
-    width: 250px;
+    height: 50px;
+    width: 300px;
+    
 }
 
 :valid{
