@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up page</title>
+    <link rel = "stylesheet" href = "styles.css">
+    <script src = "main.js" defer></script>
+</head>
+<body>
+    <div class = "imageHolder">
+        <div class = "logo"></div>
+        <div class = "logobar"> 
+            <h1>Sign up</h1>
+        </div>
+    </div>
+    <div class="rightSide">
+        <div class = "description">
+            This is not real so submitting your details will do nothing! 
+        </div>
+        <div class = "signContainer">
+            <form action="#" method="post">
+            <div class="input-container">
+                <label for="first_name">First Name</label>
+                <input type="text" id="first_name" name="first_name" placeholder="John" minlength="3" maxlength="20" required>
+            </div>
+            <div class="input-container">
+                <label for="second_name">Second Name</label>
+                <input type="text" id="second_name" name="second_name" placeholder="Doe" minlength="3" maxlength="20" required>
+            </div>
+            <div class="input-container">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+            </div>
+            <div class="input-container">
+                <label for="phone_number">Phone Number</label>
+                <input type="tel" id="phone_number" name="phone_number" placeholder="123456890" maxlength = "15" required>
+            </div>
+            <div class="input-container">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" minlength="5" maxlength="20" required>
+            </div>
+            <div class="input-container">
+                <label for="confirm_password">Confirm password</label>
+                <input type="password" id="confirm_password" name="confirm_password" minlength="5" maxlength="20"  required>
+            </div>
+            <button class="submit">Create Account</button>
+            </form>
+        </div>
+        <div class = "login">Already have an account  <em>Log in</em></div>
+    </div>
+</body>
+</html>

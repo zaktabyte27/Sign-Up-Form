@@ -1,0 +1,149 @@
+
+@font-face {
+    font-family: "glitch-goblin";
+    src: url("Images/GlitchGoblin-2O87v.ttf");
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.imageHolder{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 40vw;
+    margin-right: 12px;
+    align-items: center;
+    background-image: url("Images/cyberpunk4.jpg");
+    background-size:cover ;
+    background-position: bottom;
+}
+
+.rightSide{
+    display: flex;
+    position: relative;
+    left:50px;
+    right:50px;    
+    flex-direction: column;
+}
+
+.description{
+    position: relative;
+    top:75px;
+    color: lightgrey;
+    font-size: 2em;
+}
+
+.logo{
+    position: relative;
+    width: 100%;
+    height:20%;
+    top:250px;
+    right:25px;
+    background-image: url("Images/logo.png");
+}
+
+body{
+    font-family: 'glitch-goblin','Poppins', sans-serif;
+    display: flex;
+    margin:auto;
+    flex-direction: row;
+    background: linear-gradient(110deg, #51046d 60%, #790191 60%);
+}
+
+label {
+    position: relative;
+    color: white;
+    background-image: linear-gradient(to top, #27272c 0 calc(50% - 2px),#51046d calc(50% - 2px)); ;
+    width: max-content;
+    transform: translate(0.5rem,12%);
+    padding-left: 5px;
+    padding-right: 7px;
+    top:7px
+    
+}
+
+.logobar{
+    width: 100%;
+    position: relative;
+    top: 525px;
+    height: 10%;
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-size: 2em;
+
+}
+
+button{
+    font-family: "glitch-goblin";
+    padding-left: 5px;
+    padding-right: 7px;
+    background-color: #27272c;
+    color: white;
+    font-size: 1em;
+    position: relative;
+    top: 25px;
+    height: 25px;
+    width: 250px;
+}
+
+button:hover{
+    color: black;
+    background-color: rgba(225, 0, 255, 0.575);
+}
+
+.signContainer{
+    position: relative;
+    top: 150px;
+    display: flex;
+    flex-flow: column;
+    margin-top: 12px;
+    background: linear-gradient(110deg, #51046d 60%, #790191 60%);
+}
+
+
+.input-container{
+    font-size: 1em;
+    border-radius: 5px;
+    border-color: orange;
+    color: white;
+    margin-top: 5px;
+}
+
+.login{
+    display: flex;
+    position: relative;
+    top:300px;
+    width:400px;
+    height: 25px;
+    color:white
+}
+
+em{
+    text-decoration: underline;
+    color: rgb(255, 15, 255);
+}
+
+input{
+    color: white;
+    background-color: #27272c;
+    height: 25px;
+    width: 250px;
+}
+
+:valid{
+    border-radius: 5px;
+    border-color: rgb(0, 255, 0);
+}
+
+:invalid{
+    border-radius: 5px;
+    border-color: red;
+}
